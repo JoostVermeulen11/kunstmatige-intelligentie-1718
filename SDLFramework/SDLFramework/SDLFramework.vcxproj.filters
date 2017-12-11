@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FWApplication.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Graph.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Edge.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Rabbit.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="Pill.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Cow.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="FWApplication.h" />
+    <ClInclude Include="IGameObject.h" />
+    <ClInclude Include="Graph.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Rabbit.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="Pill.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Cow.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDL2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{fa9f09ce-a55b-4856-9ca0-cbfeef44a4dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{c7a684fd-fecb-45dc-9605-6d9aa14cf437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AStar">
+      <UniqueIdentifier>{608913eb-8ff2-4812-ac11-bd358a0af10c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
