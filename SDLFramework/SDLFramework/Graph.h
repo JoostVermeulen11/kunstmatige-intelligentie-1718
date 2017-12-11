@@ -7,6 +7,7 @@
 #include "Pill.h"
 #include "Weapon.h"
 #include "AStar.h"
+#include "CowWanderingState.h"
 
 #include <time.h>
 #include <list>

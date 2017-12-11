@@ -42,6 +42,13 @@ Vertex * Edge::getOtherVertex(const Vertex * vertex) const
 	return this->vertexStart;
 }
 
+Vertex* Edge::Move(Vertex* vertex)
+{
+	if (this->vertexStart == vertex)
+		return this->vertexEnd;
+	return this->vertexStart;
+}
+
 int Edge::getWeight() const
 {
 	return this->weight;

@@ -5,16 +5,22 @@
 Graph::Graph()
 {	
 	srand((unsigned int)time(NULL));
+	CowWanderingState* wanderingState;
 
 	createGraph();
 
 	cow = new Cow();
 	cow->setStartPoint(getRandomVertex());
+	cow->ChangeState(wanderingState->Instance());
 
 	rabbit = new Rabbit();
 	rabbit->setStartPoint(getRandomVertex());
 
+	pill = new Pill();
+	pill->setStartPoint(getRandomVertex());
 
+	weapon = new Weapon();
+	weapon->setStartPoint(getRandomVertex());
 }
 
 Graph::~Graph()

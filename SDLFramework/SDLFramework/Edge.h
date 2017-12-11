@@ -21,5 +21,6 @@ public:
 	int getWeight() const;
 	std::string getColorName() const;
 	Color getEdgeColor();
+	Vertex* Move(Vertex*);
 };
 

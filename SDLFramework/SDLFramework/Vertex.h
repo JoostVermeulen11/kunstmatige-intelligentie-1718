@@ -1,6 +1,6 @@
 #pragma once
 #include <vector>
-
+#include "RandomGenerator.h"
 #include "Edge.h"
 
 class Vertex
@@ -16,5 +16,6 @@ public:
 
 	void attachEdge(Edge* edge);
 	std::vector<Edge*> getConnectedEgdes();
+	Vertex* Move();
 };
 

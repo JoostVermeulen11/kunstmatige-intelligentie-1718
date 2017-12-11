@@ -1,7 +1,7 @@
 #pragma once
 #include "IGameObject.h"
 #include "Vertex.h"
-
+#include <iostream>
 
 class Pill : public IGameObject {
 public:
